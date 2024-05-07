@@ -1,38 +1,84 @@
 .App {
   text-align: center;
+  max-width: 100%;
+  padding: 0 20px;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1{
+  color: blue;
+  font-family: 'Times New Roman', Times, serif;
+  padding: 20px;
+  background-color: aqua;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+button{
+  margin: 5px;
+  padding: 10px 20px;
+  border: 1px solid;
+  border-radius: 5px;
+  width: 130px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.btn1{
+  background-color: blue;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.btn1:hover{
+  background-color: white;
+  color: blue;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn2{
+  background-color: green;
+  color: white;
 }
+
+.btn2:hover{
+  background-color: white;
+  color: green;
+}
+
+.btn3{
+  background-color: red;
+  color: white;
+}
+
+.btn3:hover{
+  background-color: white;
+  color: red;
+}
+
+.tableclass{
+  width: calc(100% - 40px);
+  border-collapse: collapse;
+  margin: 20px;
+}
+
+.tableclass th,
+.tableclass td{
+  padding: 12px 15px;
+  border: 1px solid black;
+}
+
+.tableclass th{
+  background-color: lightblue;
+}
+
+.listul{
+  list-style-type: none; /* the circle goes away */
+  margin: 20px;
+  padding: 10px;
+}
+
+.listul li{
+  padding: 15px;
+  border: 1px solid purple;
+  background-color: rgb(184, 148, 184);
+}
+
+.listul li:hover{
+  background-color: lightblue;
+}
+
